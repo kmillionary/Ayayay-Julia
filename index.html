@@ -172,20 +172,43 @@
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Guatemala",
+                "addressRegion": "GT",
+                "postalCode": "01007",
+                "streetAddress": "Kaminal juyu 2"
+            },
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function() {
-            ga.q.push(arguments)
-        };
-        ga.q = [];
-        ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto');
-        ga('set', 'anonymizeIp', true);
-        ga('set', 'transport', 'beacon');
-        ga('send', 'pageview')
+            "name": "Ayayay Julia",
+            "openingHours": [
+                "Todos los días 11:00-18:30",
+            ],
+            "priceRange": "$",
+            "servesCuisine": [
+                "Mexican"
+            ],
+            "telephone": "(502) 4156-6624",
+            "url": "http://www.ayjulia.com"
+        }
     </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXYSTQ38SZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HXYSTQ38SZ');
+    </script>
 
 </body>
 
