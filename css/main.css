@@ -338,7 +338,7 @@ div.menu-item {
     margin-bottom: 20px;
     align-items: center;
     border-radius: 10px;
-    min-width: 275px;
+    min-width: 260px;
 }
 
 div.menu-item h3 {
@@ -367,7 +367,7 @@ img.menu-img {
 }
 
 .menu-body {
-    height: 275px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between !important;
@@ -377,7 +377,7 @@ img.menu-img {
 }
 
 div.menu-body p {
-    margin: 0;
+    margin: 10px auto;
     font-size: 14px;
 }
 
@@ -397,6 +397,8 @@ div.menu-body p span {
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
+    margin: 20px;
+    text-align: center;
 }
 
 .btn-primary {
