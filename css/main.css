@@ -415,7 +415,7 @@ div.menu-body p span {
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
-    margin: 20px;
+    margin: 20px 5px;
     text-align: center;
 }
 
