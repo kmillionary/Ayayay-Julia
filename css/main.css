@@ -15,6 +15,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+:root {
+    --primary: #44068b;
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -463,6 +467,7 @@ ul.social-icons {
 
 ul.social-icons li {
     margin-right: 20px;
+    color: var(--primary)
 }
 
 .social-icon {
@@ -481,6 +486,10 @@ footer {
 
 .dev {
     font-size: 12px;
+}
+
+.dev a {
+    color: black;
 }
 
 
