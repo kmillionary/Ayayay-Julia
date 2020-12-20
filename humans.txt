@@ -3,11 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    name: Diego Santisteban
+    role: Frontend developer
+    instagram: @kmillionary
 
 # TECHNOLOGY COLOPHON
 
