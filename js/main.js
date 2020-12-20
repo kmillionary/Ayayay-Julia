@@ -37,15 +37,15 @@ x.parentNode.insertBefore(s, x);
 
 
 
-mybutton = document.getElementById("myBtn");
+scrollUp = document.getElementById("scrollUp");
 
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        mybutton.style.display = "block";
+        scrollUp.style.display = "block";
     } else {
-        mybutton.style.display = "none";
+        scrollUp.style.display = "none";
     }
 }
 
