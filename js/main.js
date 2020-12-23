@@ -34,10 +34,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
 
+    document.getElementsByClassName()
 
 
+    //scroll to top button
 
-    scrollUp = document.getElementById("scrollUp");
+    const scrollUp = document.getElementById("scrollUp");
 
     window.onscroll = function() { scrollFunction() };
 
@@ -49,10 +51,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+
+    scrollUp.addEventListener('click', topFunction);
+
 
 });

@@ -485,11 +485,13 @@ footer {
 }
 
 .dev {
-    font-size: 12px;
+    font-size: 10px;
+    color: rgb(161, 161, 161);
 }
 
 .dev a {
-    color: black;
+    color: rgb(161, 161, 161);
+    cursor: pointer;
 }
 
 
