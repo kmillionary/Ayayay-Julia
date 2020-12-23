@@ -499,6 +499,10 @@ footer {
    Helper classes
    ========================================================================== */
 
+.d-none {
+    display: none;
+}
+
 
 /*
  * Hide visually and from screen readers
